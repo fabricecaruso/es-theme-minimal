@@ -12,6 +12,13 @@
 
 ---
 
+# Abilities
+
+This theme is super sleak and you can set VRAM to 40MB on a Raspberry system.
+So this is the sleakest theme as far as I know.
+
+
+
 # Changes
 
 2019/06/05
