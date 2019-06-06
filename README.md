@@ -26,8 +26,8 @@ Enabled help system, this is can be disabled/enabled into ES now
 
 2019/06/06
 
-Added Picture for Screenshots (BATOCERA/RECALBOX), own creation
-Added Picture for ZX81, GX68000 and recolored Virtual Boy and Odyssey2 (=VIDEOPAC)
+Added Picture for Screenshots (BATOCERA/RECALBOX), own creation \
+Added Picture for ZX81, GX68000 and recolored Virtual Boy and Odyssey2 (=VIDEOPAC) \
 Added Picture for prboom (thx norbert79 from devianart for the B/W UAC graphics)
 
 # Preview
