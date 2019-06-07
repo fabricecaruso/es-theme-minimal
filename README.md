@@ -14,8 +14,23 @@
 
 # Abilities
 
-This theme is super sleak and you can set VRAM to 40MB on a Raspberry system.
-So this is the sleakest theme as far as I know.
+This theme is super sleak and you can set VRAM to 40MB on a Raspberry system. \
+So this is the sleakest theme as far as I know. \
+\
+This theme is highly customizable, you can change from **three** amazing layout by altering `theme.xml`\
+Version 1 gets the original theme setting back as it was released 2017 as version 2 gets a modernized layout in game listing. This one is setted to default. You can always add new backgrounds to the theme by altering the `bg.png` file. \
+\
+You can get rid off the "blurry" looking overlay by altering the overlay color inside the version assets, by removing the color code line.
+```
+		<image name="background" extra="true">
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<path>./../assets/bg.png</path>
+			<zIndex>0</zIndex>
+			<color>10667f</color>
+		</image>
+```
 
 # Changes
 
@@ -26,9 +41,14 @@ Enabled help system, this is can be disabled/enabled into ES now
 
 2019/06/06
 
-Added Picture for Screenshots (BATOCERA/RECALBOX), own creation \
-Added Picture for ZX81, GX68000 and recolored Virtual Boy and Odyssey2 (=VIDEOPAC) \
-Added Picture for prboom (thx norbert79 from devianart for the B/W UAC graphics)
+Added picture for Screenshots (BATOCERA/RECALBOX), own creation \
+Added picture for ZX81, GX68000 and recolored Virtual Boy and Odyssey2 (=VIDEOPAC) \
+Added picture for prboom (thx norbert79 from devianart for the B/W UAC graphics)
+
+2019/06/07
+
+Added background from theme version 1.0 as default (the hexagons)
+Reencoded some files that were named as PNG but were JPG files
 
 # Preview
 
