@@ -54,6 +54,10 @@ Reencoded some files that were named as PNG but were JPG files
 
 Get in touch with the original theme author in [this thread via RetroPie Forum](https://retropie.org.uk/forum/topic/12435/)
 
+### `V2.xml` theme
+
+![](https://i.imgur.com/KEEBkcO.png)
+
+### `V1.xml` theme
 
 ![](https://i.imgur.com/5UR5yTF.png)
-
