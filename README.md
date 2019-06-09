@@ -1,6 +1,6 @@
 # es-theme-minimal
 
-**Words from the author**
+**Words from the creator [lilbud](https://github.com/lilbud)**
 
 > This theme is an attempt at making EmulationStation look more like a game system.
 
@@ -15,11 +15,13 @@
 # Abilities
 
 This theme is super sleak and you can set VRAM to 40MB on a Raspberry system. \
-So this is the sleakest theme as far as I know. \
+So this is the smallest theme in foorprint as far as I know. \
 \
 This theme is highly customizable, you can change from **three** amazing layout by altering `theme.xml`\
-Version 1 gets the original theme setting back as it was released 2017 as version 2 gets a modernized layout in game listing. This one is setted to default. You can always add new backgrounds to the theme by altering the `bg.png` file. \
-\
+Version 1 gets the original theme setting back as it was released 2017, whereas version 2 is a modernized layout in game list mode. Like the original author did, I decided to keep version 2 as default. The third option is a slighlty improved v1.\
+
+You can always add new backgrounds to the theme by altering the `bg.png` file. \
+
 You can get rid off the "blurry" looking overlay by altering the overlay color inside the version assets, by removing the color code line.
 ```
 		<image name="background" extra="true">
@@ -47,14 +49,19 @@ Added picture for prboom (thx norbert79 from devianart for the B/W UAC graphics)
 
 2019/06/07
 
-Added background from theme version 1.0 as default (the hexagons)
-Reencoded some files that were named as PNG but were JPG files
+Added background image from theme version 1.0 as default (the hexagons)
+Reencoded some files that were named as PNG but actually contained JPG.
+
+2019/06/09
+
+Added CPS1, CPS2, CPS3 system icons, recolored them (thank you anthonycaccese for your ArtBook theme)
+Readded Odyssey2 system icon, after recoloring
 
 # Preview
 
 Get in touch with the original theme author in [this thread via RetroPie Forum](https://retropie.org.uk/forum/topic/12435/)
 
-### `V2.xml` theme
+### `V2.xml` theme (default)
 
 ![](https://i.imgur.com/KEEBkcO.png)
 
