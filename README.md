@@ -57,6 +57,9 @@ Reencoded some files that were named as PNG but actually contained JPG.
 Added CPS1, CPS2, CPS3 system icons, recolored them (thank you anthonycaccese for your ArtBook theme) \
 Readded Odyssey2 system icon, did some recoloring
 
+2019/08/28
+Added Solarus RPG system icon, recolored it (thank you to the Solarus Team designer, https://www.solarus-games.org/)
+
 # Preview
 
 Get in touch with the original theme author in [this thread via RetroPie Forum](https://retropie.org.uk/forum/topic/12435/)
