@@ -1,4 +1,4 @@
-<!-- 
+﻿<!-- 
 Theme: Minimal
 version: 2.0
 author: Lilbud
@@ -8,9 +8,36 @@ license: creative commons CC-BY-NC-SA
 	
 	<formatVersion>4</formatVersion>
 
+  <view name="menu">
+    <menuText name="menutitle">
+      <fontPath>./art/noto.ttf</fontPath>
+      <fontSize>0.044</fontSize>    
+      <color>ffffff</color>
+    </menuText>
+    <menuText name="menufooter">
+      <fontPath>./art/SST.ttf</fontPath>
+      <fontSize>0.02</fontSize>      
+    </menuText>
+    <menuText name="menutext">
+      <fontPath>./art/SST.ttf</fontPath>
+      <fontSize>0.038</fontSize>
+      <color>A6C6D1</color>
+	    <selectorColor>0F85A5</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<separatorColor>0C4F63</separatorColor>
+    </menuText>
+    <menuTextSmall name="menutextsmall">
+      <fontPath>./art/SST.ttf</fontPath>
+      <fontSize>0.02</fontSize>
+    </menuTextSmall>
+    <menuBackground name="menubg">
+      <color>0A455A</color>      
+    </menuBackground>    
+  </view>
+
 	<view name="system">
 
-		<image name="background" extra="true">
+		<image name="staticBackground">
 			<size>1 1</size>
 			<pos>0 0</pos>
 			<origin>0 0</origin>
@@ -20,15 +47,20 @@ license: creative commons CC-BY-NC-SA
 		</image>
 		
 		<helpsystem name="help">
-			<textColor>7d7d7d</textColor>
-			<iconColor>7d7d7d</iconColor>
+			<textColor>FFFFFF90</textColor>
+			<iconColor>FFFFFF90</iconColor>
 		</helpsystem>
-
 		
 		<image name="logo">
 			<path>./../art/${system.theme}.svg</path>
+      <reflexion>0.16 0.0</reflexion>
+      <!-- <verticalAlignment>bottom</verticalAlignment> -->
+      <reflexionOnFrame>true</reflexionOnFrame>
 		</image>
 	
+    <text name="logoText">
+      <color>FFFFFFFF</color>
+    </text>
 	</view>
 	
 	<view name="basic">
@@ -132,14 +164,17 @@ license: creative commons CC-BY-NC-SA
 	
 	<view name="video">
 
+    <image name="md_image">
+      <visible>false</visible>
+    </image>
+    
 			<video name="md_video">
 				<origin>0.5 0.5</origin>
 				<pos>0.1785 0.382</pos>
 				<maxSize>0.236 0.418</maxSize>	
-				<delay>0</delay>
-				<default></default>
-				<showSnapshotNoVideo>true</showSnapshotNoVideo>
-				<showSnapshotDelay>false</showSnapshotDelay>
+				<delay>1</delay>
+        <showSnapshotNoVideo>true</showSnapshotNoVideo>
+        <showSnapshotDelay>true</showSnapshotDelay>
 			</video>
 
 			<!--<image name="md_marquee">
@@ -156,12 +191,18 @@ license: creative commons CC-BY-NC-SA
          
 		<carousel name="systemcarousel">
 		    <type>horizontal</type>
+        <pos>0 0.41</pos>
+        <size>1 0.3925</size>
+        <origin>0 0</origin>        
 		    <color>00000000</color>
 		    <logoScale>1</logoScale>
 		    <logoSize>0.25 0.155</logoSize>
-         </carousel>
+		    <logoPos>-1 0</logoPos>
+    </carousel>
 		    
 		<text name="systemInfo">
+        <pos>0 0.66</pos>
+        <size>1 0.25</size>
 		    <backgroundColor>00000000</backgroundColor>
 		    <color>ffffff</color>
 		    <fontPath>./../assets/SST.ttf</fontPath>
