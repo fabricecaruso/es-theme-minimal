@@ -41,24 +41,20 @@ You can get rid off the "blurry" looking overlay by altering the overlay color i
 Added background image from Minimal v1 to `_extras` \
 Enabled help system, this is can be disabled/enabled into ES now
 
-2019/06/06
-
-Added picture for Screenshots (BATOCERA/RECALBOX), own creation \
-Added picture for ZX81, GX68000 and recolored Virtual Boy and Odyssey2 (=VIDEOPAC) \
-Added picture for prboom (thx norbert79 from devianart for the B/W UAC graphics)
-
-2019/06/07
-
-Added background image from theme version 1.0 as default (the hexagons) \
-Reencoded some files that were named as PNG but actually contained JPG.
-
-2019/06/09
-
-Added CPS1, CPS2, CPS3 system icons, recolored them (thank you anthonycaccese for your ArtBook theme) \
-Readded Odyssey2 system icon, did some recoloring
-
-2019/08/28
-Added Solarus RPG system icon, recolored it (thank you to the Solarus Team designer, https://www.solarus-games.org/)
+* 2019/06/06
+  * Added picture for Screenshots (BATOCERA/RECALBOX), own creation \
+  * Added picture for ZX81, GX68000 and recolored Virtual Boy and Odyssey2 (=VIDEOPAC) \
+  * Added picture for prboom (thx norbert79 from devianart for the B/W UAC graphics)
+* 2019/06/07
+  * Added background image from theme version 1.0 as default (the hexagons) \
+  * Reencoded some files that were named as PNG but actually contained JPG.
+* 2019/06/09
+  * Added CPS1, CPS2, CPS3 system icons, recolored them (thank you anthonycaccese for your ArtBook theme) \
+  * Readded Odyssey2 system icon, did some recoloring
+* 2019/08/28
+  * Added Solarus RPG system icon, recolored it (thank you to the Solarus Team designer, https://www.solarus-games.org/)
+* 2019/10/04
+  * Added OpenBOR system, ripped from RetroPie with some heavy recoloring
 
 # Preview
 
