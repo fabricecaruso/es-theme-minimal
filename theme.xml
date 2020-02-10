@@ -13,11 +13,11 @@ License: creative commons CC-BY-NC-SA
       <fontSize>0.025</fontSize>
       <color>FFFFFFC0</color>
       <horizontalAlignment>center</horizontalAlignment>
-      <verticalAlignment>center</verticalAlignment>          
+      <verticalAlignment>center</verticalAlignment>
       <fontPath>./assets/SST.ttf</fontPath>
-      <fontSize>0.04</fontSize>            
+      <fontSize>0.04</fontSize>
     </text>
-     <controllerActivity name="controllerActivity">
+    <controllerActivity name="controllerActivity">
       <pos>0.832 0.025</pos>
       <size>0.085 0.025</size>
       <horizontalAlignment>right</horizontalAlignment>
@@ -43,15 +43,18 @@ License: creative commons CC-BY-NC-SA
       <fontSize>0.038</fontSize>
       <color>A6C6D1</color>
       <selectorColor>0F85A5</selectorColor>
+      <selectorColorEnd>0F6585</selectorColorEnd>
       <selectedColor>ffffff</selectedColor>
-      <separatorColor>0C4F63</separatorColor>
+      <separatorColor>0C3F53</separatorColor>
     </menuText>
     <menuTextSmall name="menutextsmall">
       <fontPath>./assets/SST.ttf</fontPath>
       <fontSize>0.02</fontSize>
     </menuTextSmall>
     <menuBackground name="menubg">
-      <color>0A455A</color>
+      <color>0A354A</color>
+      <cornerSize>32 32</cornerSize>
+      <path>./assets/frame.png</path>
     </menuBackground>
   </view>
   <view name="system">
@@ -59,6 +62,8 @@ License: creative commons CC-BY-NC-SA
       <size>1 1</size>
       <pos>0 0</pos>
       <origin>0 0</origin>
+      <tile>false</tile>
+      <linearSmooth>true</linearSmooth>
       <path>./assets/bg.png</path>
       <zIndex>0</zIndex>
       <color>10667f</color>
@@ -75,6 +80,8 @@ License: creative commons CC-BY-NC-SA
     </image>
     <text name="logoText">
       <color>FFFFFFFF</color>
+      <reflexion>0.16 0.0</reflexion>
+      <reflexionOnFrame>true</reflexionOnFrame>
     </text>
   </view>
   <view name="basic">
@@ -93,13 +100,11 @@ License: creative commons CC-BY-NC-SA
       <path>./assets/no_boxart.png</path>
     </image>
   </view>
-
   <view name="basic, detailed, grid">
     <helpsystem name="help">
       <textColor>FFFFFF90</textColor>
       <iconColor>FFFFFF90</iconColor>
     </helpsystem>
-    
     <image name="background" extra="true">
       <size>1 1</size>
       <pos>0 0</pos>
@@ -108,8 +113,7 @@ License: creative commons CC-BY-NC-SA
       <zIndex>0</zIndex>
       <color>10667f</color>
     </image>
-
-  <image name="backgroundx" extra="true">
+    <image name="backgroundx" extra="true">
       <size>1 1</size>
       <pos>0 0</pos>
       <origin>0 0</origin>
@@ -117,7 +121,6 @@ License: creative commons CC-BY-NC-SA
       <zIndex>0</zIndex>
       <color>FFFFFFFF</color>
     </image>
-
     <text name="system_name" extra="true">
       <text>${system.fullName}</text>
       <forceUppercase>0</forceUppercase>
@@ -128,33 +131,28 @@ License: creative commons CC-BY-NC-SA
       <fontSize>0.04</fontSize>
       <zIndex>2</zIndex>
     </text>
-
     <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate">
       <visible>false</visible>
     </text>
-    
     <rating name="md_rating">
       <visible>false</visible>
     </rating>
-
     <image name="md_thumbnail">
-       <visible>false</visible>
+      <visible>false</visible>
       <origin>0.5 0.5</origin>
       <pos>0.5 0.5</pos>
       <minSize>1.25 1.25</minSize>
       <color>FFFFFF0A</color>
     </image>
-
     <video name="md_video">
       <origin>0.5 0.5</origin>
       <pos>0.776 0.388</pos>
       <maxSize>0.347 0.46</maxSize>
-      <delay>0.7</delay>      
+      <delay>0.7</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
-<snapshotSource>image</snapshotSource>
+      <snapshotSource>image</snapshotSource>
     </video>
-
     <text name="md_description">
       <pos>0.605 0.685</pos>
       <size>0.347 0.183</size>
@@ -162,17 +160,16 @@ License: creative commons CC-BY-NC-SA
       <fontSize>0.025</fontSize>
       <fontPath>./assets/noto.ttf</fontPath>
     </text>
-
     <image name="logo">
       <pos>1 1</pos>
       <color>00000000</color>
       <path>./assets/box.png</path>
     </image>
   </view>
-
   <view name="basic, detailed">
     <textlist name="gamelist">
       <selectorColor>0f85a5</selectorColor>
+      <selectorColorEnd>0F6585</selectorColorEnd>
       <selectedColor>ffffff</selectedColor>
       <primaryColor>ffffff</primaryColor>
       <secondaryColor>ffffff</secondaryColor>
@@ -190,7 +187,9 @@ License: creative commons CC-BY-NC-SA
     </textlist>
   </view>
   <view name="grid">
-    <image name="md_image"><visible>false</visible></image>
+    <image name="md_image">
+      <visible>false</visible>
+    </image>
     <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
       <color>A0A0B000</color>
     </text>
@@ -204,7 +203,6 @@ License: creative commons CC-BY-NC-SA
       <pos>0.88 0.88</pos>
       <size>0.05 0.03</size>
     </text>
-
     <text name="md_name">
       <color>ffffffff</color>
       <pos>0.051 0.16</pos>
@@ -213,14 +211,13 @@ License: creative commons CC-BY-NC-SA
       <glowColor>00000005</glowColor>
       <glowSize>3</glowSize>
     </text>
-
     <imagegrid name="gamegrid">
       <pos>0.047 0.200</pos>
       <size>0.51 0.67</size>
       <margin>0.005 0.010</margin>
       <padding>0.03 0.05 0.03 0.04</padding>
       <autoLayout>3 1</autoLayout>
-      <autoLayoutSelectedZoom>1.60</autoLayoutSelectedZoom>
+      <autoLayoutSelectedZoom>1.40</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
       <scrollDirection>horizontal</scrollDirection>
       <centerSelection>true</centerSelection>
@@ -235,9 +232,9 @@ License: creative commons CC-BY-NC-SA
       <reflexion>0.24 0.0</reflexion>
     </gridtile>
     <gridtile name="selected">
-      <backgroundColor>0f85a5FF</backgroundColor>      
+      <backgroundColor>FFFFFF00</backgroundColor>
       <imageColor>FFFFFFFF</imageColor>
-    </gridtile>  
+    </gridtile>
     <!--
     <text name="gridtile">
       <color>D0D0D0</color>
@@ -252,29 +249,31 @@ License: creative commons CC-BY-NC-SA
       <glowSize>3</glowSize>
     </text>-->
   </view>
-
-  <feature supported="carousel">
-
-
-    <view name="system">
-      <carousel name="systemcarousel">
-        <type>horizontal</type>
-        <pos>0 0.41</pos>
-        <size>1 0.3925</size>
-        <origin>0 0</origin>
-        <color>00000000</color>
-        <logoScale>1</logoScale>
-        <logoSize>0.25 0.155</logoSize>
-        <logoPos>-1 0</logoPos>
-      </carousel>
-      <text name="systemInfo">
-        <pos>0 0.66</pos>
-        <size>1 0.25</size>
-        <backgroundColor>00000000</backgroundColor>
-        <color>ffffff</color>
-        <fontPath>./assets/SST.ttf</fontPath>
-        <fontSize>0.03</fontSize>
-      </text>
-    </view>
-  </feature>
+  <view name="system">
+    <carousel name="systemcarousel">
+      <type>horizontal</type>
+      <pos>0 0.41</pos>
+      <size>1 0.3925</size>
+      <origin>0 0</origin>
+      <color>00000000</color>
+      <logoScale>1</logoScale>
+      <logoSize>0.25 0.155</logoSize>
+      <logoPos>-1 0</logoPos>
+    </carousel>
+    <text name="systemInfo">
+      <pos>0 0.66</pos>
+      <size>1 0.25</size>
+      <backgroundColor>00000000</backgroundColor>
+      <color>ffffff</color>
+      <fontPath>./assets/SST.ttf</fontPath>
+      <fontSize>0.03</fontSize>
+    </text>
+  </view>
+  <subset name="background">
+    <include name="default"/>
+    <include name="earth">./assets/bg2.xml</include>
+    <include name="abstract">./assets/bg4.xml</include>
+    <include name="vinyl">./assets/bg1.xml</include>
+    <include name="lake">./assets/bg3.xml</include>
+  </subset>
 </theme>
