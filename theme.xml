@@ -8,8 +8,8 @@ License: creative commons CC-BY-NC-SA
   <formatVersion>7</formatVersion>
   <view name="screen">
     <text name="clock">
-      <pos>0.925 0.025</pos>
-      <size>0.06 0.025</size>
+      <pos>0.92 0.025</pos>
+      <size>0.065 0.025</size>
       <fontSize>0.025</fontSize>
       <color>FFFFFFC0</color>
       <horizontalAlignment>center</horizontalAlignment>
@@ -79,6 +79,8 @@ License: creative commons CC-BY-NC-SA
       <reflexionOnFrame>true</reflexionOnFrame>
     </image>
     <text name="logoText">
+      <fontPath>./assets/miss.ttf</fontPath>
+      <fontSize>0.092</fontSize>
       <color>FFFFFFFF</color>
       <reflexion>0.16 0.0</reflexion>
       <reflexionOnFrame>true</reflexionOnFrame>
@@ -176,7 +178,7 @@ License: creative commons CC-BY-NC-SA
       <fontPath>./assets/SST.ttf</fontPath>
       <fontSize>0.03</fontSize>
       <pos>0.051 0.170</pos>
-      <size>0.50 0.68</size>
+      <size>0.50 0.70</size>
       <alignment>left</alignment>
       <horizontalMargin>0.01</horizontalMargin>
       <origin>0 0</origin>
