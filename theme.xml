@@ -8,7 +8,7 @@ License: creative commons CC-BY-NC-SA
   <formatVersion>7</formatVersion>
   <view name="screen">
     <text name="clock">
-      <pos>0.92 0.025</pos>
+      <pos>0.92 0.95</pos>
       <size>0.07 0.025</size>
       <fontSize>0.025</fontSize>
       <color>FFFFFFC0</color>
