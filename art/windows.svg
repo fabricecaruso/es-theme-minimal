@@ -9,21 +9,21 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="148.92734mm"
-   height="35.545116mm"
-   viewBox="0 0 148.92734 35.545116"
+   width="135.73125mm"
+   height="35.548527mm"
+   viewBox="0 0 135.73125 35.548526"
    version="1.1"
    id="svg4515"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="wine.svg">
+   sodipodi:docname="windows.svg">
   <defs
      id="defs4509">
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 148.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="210 : 148.5 : 1"
-       inkscape:persp3d-origin="105 : 99 : 1"
+       inkscape:vp_x="0 : 148.49999 : 1"
+       inkscape:vp_y="0 : 999.99996 : 0"
+       inkscape:vp_z="210.00001 : 148.49999 : 1"
+       inkscape:persp3d-origin="105 : 98.999996 : 1"
        id="perspective5098" />
   </defs>
   <sodipodi:namedview
@@ -34,8 +34,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.74511719"
-     inkscape:cx="208.11002"
-     inkscape:cy="-65.0723"
+     inkscape:cx="178.58447"
+     inkscape:cy="-63.730237"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -61,7 +61,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-33.685232,-60.970287)">
+     transform="translate(-41.497202,-61.321965)">
     <g
        transform="matrix(0.08793221,0,0,0.08793221,64.757464,60.195357)"
        id="g2188"
@@ -89,14 +89,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.79999924px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="32.66824"
-       y="96.01931"
+       x="40.480209"
+       y="96.374397"
        id="text5152"><tspan
          sodipodi:role="line"
          id="tspan5150"
-         x="32.66824"
-         y="96.01931"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Guatemala;-inkscape-font-specification:Guatemala;fill:#ffffff;stroke-width:0.26458332">W  NE</tspan></text>
+         x="40.480209"
+         y="96.374397"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Guatemala;-inkscape-font-specification:Guatemala;fill:#ffffff;stroke-width:0.26458332">W NE</tspan></text>
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.36828327;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94366198"
        d="m 351.55241,261.27077 -4.56623,-4.36173 2.94503,-10.06553 2.94503,-10.06553 6.79157,-0.39811 c 7.74606,-0.45405 20.03929,3.54652 25.60251,8.3318 3.41959,2.9414 3.4461,3.09912 1.5024,8.93787 -1.80201,5.41313 -2.44801,6.01665 -7.23766,6.7616 -2.89247,0.44987 -7.50439,1.80872 -10.2487,3.01966 -7.75022,3.41981 -12.49788,2.84153 -17.73395,-2.16003 z"
